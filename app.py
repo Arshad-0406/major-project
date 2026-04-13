@@ -14,6 +14,8 @@ body {
     background: radial-gradient(circle at top, #020617, #000);
 }
 
+
+
 /* Title */
 #title {
     text-align: center;
@@ -69,6 +71,14 @@ button:hover {
     transform: scale(1.03);
     box-shadow: 0 0 20px #06b6d4;
 }
+
+body {
+        background: #000;
+    }
+
+    footer {
+        display: none !important;
+    }
 
 /* Image */
 img {
