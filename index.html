@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="main">
+  <h1>🚀 AI Image Studio</h1>
+  <p class="subtitle">Turn your imagination into reality</p>
+
+  <div class="card">
+    <textarea id="prompt" placeholder="Describe your image..."></textarea>
+    
+    <button onclick="generateImage()">Generate</button>
+
+    <div id="loader" class="loader">
+      <div></div><div></div><div></div>
+    </div>
+
+    <img id="output"/>
+
+    <a id="downloadBtn" download="image.png">⬇ Download</a>
+  </div>
+
+  <!-- <h2>🖼 Gallery</h2>
+  <div id="gallery" class="gallery"></div> -->
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
